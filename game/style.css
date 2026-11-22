@@ -1,0 +1,47 @@
+/* Lantern Thief — page dress: a dark wall behind the canvas, nothing more.
+   The game itself is drawn entirely on the canvas. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #070b16;
+  color: #aebad6;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  text-align: center;
+  padding: 18px 12px 22px;
+}
+
+.brand {
+  margin: 0 0 10px;
+  font-size: 15px;
+  letter-spacing: 0.42em;
+  color: #ffcf7d;
+  font-weight: 700;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 96vw;
+  height: auto;
+  background: #141f38;
+  border: 2px solid #2e4066;
+  border-radius: 6px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+}
+
+.keys {
+  margin: 12px 0 0;
+  font-size: 13.5px;
+  color: #7787ab;
+}
